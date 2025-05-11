@@ -1,0 +1,33 @@
+{
+  "name": "skillify-server",
+  "version": "1.0.0",
+  "description": "Backend for Skillify a coding challenge platform",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "express-rate-limit": "^6.7.0",
+    "glob": "^11.0.1",
+    "helmet": "^6.1.5",
+    "isolated-vm": "^5.0.3",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.0",
+    "lru-cache": "^11.0.2",
+    "mongoose": "^7.8.7",
+    "morgan": "^1.10.0",
+    "superagent": "^10.1.1",
+    "vm2": "^3.9.19"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^3.1.9",
+    "supertest": "^6.3.3"
+  }
+}
